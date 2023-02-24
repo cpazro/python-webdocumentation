@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <nav id="navbar">
+          <header class="nav-header">Python Documentation</header>
+          <ul>
+            <li><a class="nav-link" href="#python">python</a></li>
+            <li><a class="nav-link" href="#hello_world">hello world</a></li>
+            <li><a class="nav-link" href="#comments">comments</a></li>
+            <li><a class="nav-link" href="#variables">variables</a></li>
+            <li><a class="nav-link" href="#data_types">data types</a></li>
+          </ul>
+          <img class="img-header" src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-black-and-white.png">
+        </nav>
+      </div>
+    </div>
+    <main id="main-doc">
+      <section class="main-section" id="python">
+        <header class="header">PYTHON</header>
+        <article>
+          <h3>Python</h3>
+          <p>
+            Python is a high-level, interpreted programming language that was first released in 1991. It was created by Guido van Rossum and is now maintained by the Python Software Foundation. Python is designed to be easy to read, write, and understand, making it a popular choice for beginners and experts alike.<br>
+
+Python is a general-purpose programming language, which means that it can be used for a wide range of applications, including web development, data analysis, artificial intelligence, scientific computing, and more. It has a large and active community of developers, who contribute to a wide range of libraries, frameworks, and tools that make it easier to use Python for various tasks.<br>
+
+One of the key features of Python is its simplicity and readability. Python code is often more concise and easier to read than code written in other programming languages, making it easier to maintain and modify over time. Additionally, Python has a large standard library that provides a wide range of functions and modules that can be used to perform common tasks, such as reading and writing files, working with data, and more.<br>
+
+Python is also known for its flexibility and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming, which makes it well-suited for a wide range of use cases. Additionally, Python is cross-platform, which means that it can be run on a variety of operating systems, including Windows, macOS, and Linux.<br>
+
+Python's popularity and ease of use have made it one of the most widely used programming languages in the world. It is used by a wide range of companies and organizations, including Google, Facebook, NASA, and more, and it has been used to create a wide range of applications, from web applications to scientific simulations to machine learning models.<br>
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="hello_world">
+        <header class="header">hello world</header>
+        <article>
+          <h3>Hello World</h3>
+          <p>The "Hello, World!" program is a simple program that outputs the message "Hello, World!" to the console or command prompt. It is often used as a first example when learning a new programming language.<br>
+
+Here's the Python code for the "Hello, World!" program:<br></p>
+          <pre><code>
+print("Hello, World!")
+          </pre></code>
+          <p>In Python, the print() function is used to output text to the console. In this case, we pass the string "Hello, World!" as an argument to the print() function, which causes it to be displayed on the screen.<br>
+
+To run this program, you can save the code to a file with a .py extension, such as hello.py, and then run the file from the command line by typing:<br></p>
+          <pre><code>
+python hello.py
+          </pre></code>
+          <p>Assuming that Python is installed on your system, this should output the message "Hello, World!" to the console.<br>
+
+That's it! The "Hello, World!" program is a simple way to verify that you have a working Python installation and to get started with writing Python code.<br></p>
+        </article>
+      </section>
+      <section class="main-section" id="comments">
+        <header class="header">comments</header>
+        <article>
+          <h3>Comments</h3>
+          <p>Python comments are used to document code, explain functionality, and make notes to yourself and other developers. In Python, comments begin with the hash symbol (#) and continue until the end of the line. The Python interpreter ignores everything on the line after the hash symbol.<br>
+          Here are some best practices for writing Python comments:<br></p>
+          <ol>
+            <li>Use comments to explain what the code does, not how it does it. Code should be self-explanatory, but comments can provide additional context.</li>
+            <li>Use descriptive variable names and function names so that the code is easy to read and understand.</li>
+            <li>Use comments to document complex algorithms, unusual edge cases, or any code that might be difficult to understand at first glance.</li>
+            <li>Use comments sparingly. Too many comments can make code harder to read and maintain.</li>
+            <li>Use a consistent style for comments throughout your codebase. This can make it easier to understand and maintain code.</li>
+          </ol>
+          <p>Here are some examples of Python comments:<br></p>
+          <pre><code>
+# This is a comment
+print("Hello, World!") # This is also a comment
+
+# This is a multi-line comment
+# It explains the purpose of the code below
+# which is to print the Fibonacci sequence
+fibonacci = [0, 1]
+for i in range(2, 10):
+  fibonacci.appen(fibonacci[i-1] + fibonacci[i-2])
+print(fibonacci)
+          </pre></code>
+        </article>          
+      </section>
+      <section class="main-section" id="variables">
+        <header class="header">variables</header>
+        <article>
+          <h3>Variables</h3>
+          <p>
+            Variables in Python are used to store data values that can be used throughout a program. Variables are created using an assignment statement, which consists of the variable name, an equals sign (=), and the value that you want to store in the variable.<br>
+
+Here's an example of creating a variable in Python:<br>
+          </p>
+          <pre><code>
+x = 5
+          </pre></code>
+          <p>In this example, we're creating a variable called x and assigning it the value 5. Once a variable has been created, you can use it throughout your program by referencing its name.<br>
+
+Python variable names can consist of letters, numbers, and underscores, but they must start with a letter or underscore. Variable names are case-sensitive, so x and X are considered to be two different variables.<br>
+
+Here are some best practices for working with variables in Python:<br>
+          </p>
+          <ol>
+            <li>Use descriptive variable names that make it clear what the variable represents. This can make your code easier to understand and maintain.</li>
+            <li>Assign variables only when they are needed. This can help to minimize memory usage and improve the performance of your code.</li>
+            <li>Use constants for values that should not be changed during the execution of your program. Constants are typically written in all caps to make them easier to identify.</li>
+            <li>Use variables to store values that may change during the execution of your program. This can make your code more flexible and adaptable.</li>
+            <li>Avoid using reserved keywords as variable names, as this can cause errors in your code.</li>
+          </ol>
+          <p>Here's an example that demonstrates some of these best practices:</p>
+          <pre><code>
+# This is a constant
+PI = 3.14
+
+# This is a variable
+radius = 5
+
+# Calculate the area of a circle
+area = PI * (radius ** 2)
+
+# Print the result
+print("The area of the circle is:", area)
+          </pre></code>
+          <p>In this example, we're using a constant (PI) to represent the value of pi, and a variable (radius) to represent the radius of a circle. We then use these variables to calculate the area of the circle and store the result in a variable called area. Finally, we use the print() function to output the result to the console.</p>
+        </article>
+      </section>
+      <section class="main-section" id="data_types">
+        <header class="header">data types</header>
+        <article>
+          <h3>Data Types</h3>
+          <p>Python is a dynamically-typed language, which means that variables can hold values of different types at different times during program execution. In Python, there are several built-in data types that you can use to represent different kinds of data.<br>
+
+Here are some of the most commonly used data types in Python:<br></p>
+          <ol>
+            <li><b>Numbers:</b> Numbers are used to represent numeric data in Python. There are three types of numbers in Python: integers (int), floating-point numbers (float), and complex numbers (complex).
+              <pre><code>
+# Examples of numbers in Python
+x = 5     # int
+y = 3.14  # float
+z = 2 + 3j  # complex
+              </pre></code>
+            </li>
+            <li>
+<b>Strings:</b> Strings are used to represent text data in Python. Strings are enclosed in either single or double quotes.
+              <pre><code>
+# Examples of strings in Python
+name = "John"
+address = '123 Main St.'
+              </pre></code>
+            </li>
+            <li>
+<b>Lists:</b> Lists are used to store collections of data. Lists are ordered and mutable, which means that you can add, remove, and change elements in a list.
+makefile
+              <pre><code>
+# Example of a list in Python
+my_list = [1, 2, 3, 4, 5]              
+              </pre></code>
+            </li>
+            <li>
+<b>Tuples:</b> Tuples are similar to lists, but they are immutable, which means that once you create a tuple, you cannot change its contents.
+              <pre><code>
+# Example of a tuple in Python
+my_tuple = (1, 2, 3, 4, 5)
+              </pre></code>
+            </li>
+            <li>
+<b>Dictionaries:</b> Dictionaries are used to store key-value pairs. Dictionaries are unordered and mutable, which means that you can add, remove, and change key-value pairs in a dictionary.
+              <pre><code>
+# Example of a dictionary in Python
+my_dict = {"name": "John", "age": 30, "city": "New York"}
+              </pre></code>
+            </li>
+            <li>
+<b>Booleans:</b> Booleans are used to represent logical values. There are only two possible Boolean values: True and False.
+              <pre><code>
+# Example of a boolean in Python
+is_raining = True
+              </pre></code>
+            </li>
+          </ol>
+          <p>
+            These are just a few examples of the built-in data types in Python. In addition to these data types, there are also other data types that are commonly used in Python, such as sets, byte arrays, and more. Additionally, you can create your own custom data types using classes and objects. Understanding the different data types in Python is essential for writing effective and efficient Python programs.
+          </p>
+        </article>
+      </section>
+    </main>  
+  </body>
+</html>
